@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Seat Selection</title>
+  <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+
+  <h1>Select Your Seats</h1>
+
+  <div class="coach">
+    <!-- 10 rows × 6 seats = 60 seats -->
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="seat available">1</div>
+      <div class="seat premium">2</div>
+      <div class="seat available">3</div>
+      <div class="aisle"></div>
+      <div class="seat available">4</div>
+      <div class="seat booked">5</div>
+      <div class="seat premium">6</div>
+    </div>
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="seat booked">7</div>
+      <div class="seat available">8</div>
+      <div class="seat available">9</div>
+      <div class="aisle"></div>
+      <div class="seat premium">10</div>
+      <div class="seat available">11</div>
+      <div class="seat available">12</div>
+    </div>
+    <!-- Row 3 -->
+    <div class="row">
+      <div class="seat available">13</div>
+      <div class="seat premium">14</div>
+      <div class="seat available">15</div>
+      <div class="aisle"></div>
+      <div class="seat available">16</div>
+      <div class="seat booked">17</div>
+      <div class="seat premium">18</div>
+    </div>
+    <!-- Row 4 -->
+    <div class="row">
+      <div class="seat available">19</div>
+      <div class="seat available">20</div>
+      <div class="seat premium">21</div>
+      <div class="aisle"></div>
+      <div class="seat available">22</div>
+      <div class="seat available">23</div>
+      <div class="seat booked">24</div>
+    </div>
+    <!-- Row 5 -->
+    <div class="row">
+      <div class="seat premium">25</div>
+      <div class="seat booked">26</div>
+      <div class="seat available">27</div>
+      <div class="aisle"></div>
+      <div class="seat available">28</div>
+      <div class="seat premium">29</div>
+      <div class="seat available">30</div>
+    </div>
+    <!-- Row 6 -->
+    <div class="row">
+      <div class="seat available">31</div>
+      <div class="seat available">32</div>
+      <div class="seat booked">33</div>
+      <div class="aisle"></div>
+      <div class="seat premium">34</div>
+      <div class="seat available">35</div>
+      <div class="seat available">36</div>
+    </div>
+    <!-- Row 7 -->
+    <div class="row">
+      <div class="seat premium">37</div>
+      <div class="seat available">38</div>
+      <div class="seat available">39</div>
+      <div class="aisle"></div>
+      <div class="seat booked">40</div>
+      <div class="seat available">41</div>
+      <div class="seat premium">42</div>
+    </div>
+    <!-- Row 8 -->
+    <div class="row">
+      <div class="seat available">43</div>
+      <div class="seat premium">44</div>
+      <div class="seat available">45</div>
+      <div class="aisle"></div>
+      <div class="seat available">46</div>
+      <div class="seat booked">47</div>
+      <div class="seat available">48</div>
+    </div>
+    <!-- Row 9 -->
+    <div class="row">
+      <div class="seat available">49</div>
+      <div class="seat booked">50</div>
+      <div class="seat premium">51</div>
+      <div class="aisle"></div>
+      <div class="seat available">52</div>
+      <div class="seat available">53</div>
+      <div class="seat premium">54</div>
+    </div>
+    <!-- Row 10 -->
+    <div class="row">
+      <div class="seat available">55</div>
+      <div class="seat available">56</div>
+      <div class="seat booked">57</div>
+      <div class="aisle"></div>
+      <div class="seat available">58</div>
+      <div class="seat premium">59</div>
+      <div class="seat available">60</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div><span class="box available"></span> Normal</div>
+    <div><span class="box premium"></span> Premium</div>
+    <div><span class="box selected"></span> Selected</div>
+    <div><span class="box booked"></span> Booked</div>
+  </div>
+  <h1 id="p">finalprice</h1>
+  <button id="confirm" onclick="confirmticket()">CONFIRM</button>
+
+  <div id="confirmpage">
+    <div id="confirmtop">
+      
+        <h1 id="pay"><br>PAYMENT GATEWAY</h1>
+        <h1 id="TRAINAME">~TRAINAME</h1>
+        <h1 id="startend"> start   -->    end</h1>
+        <button id="paymoney" onclick="paymoney()"> PAY 200</button>
+    </div>
+  </div>
+  
+
+  <script src="page3.js"></script>
+  <script src="page1.js"></script>
+</body>
+</html>

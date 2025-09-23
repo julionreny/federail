@@ -1,0 +1,59 @@
+#field
+{
+    background-color: rgb(196, 228, 180);
+    height: 710px;
+    width: 600px;
+    margin-left: 430px;
+    border-radius: 7px;
+    border:solid rgb(8, 67, 28) 4px;
+}
+h1
+{
+    font-size: 40px;
+    margin-left: 83px;
+    margin-top: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}
+#tick
+{
+    margin-left: 240px;
+    margin-top: -20px;
+    font-size: 80px;
+    border-radius: 20px;
+}
+#list
+{
+    margin-left: 500px;
+    margin-top: -350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#home
+{
+    margin-left: 500px;
+    margin-top: 120px;
+    height: 70px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(7, 66, 7);
+}
+#receipt
+{
+    height: 70px;
+    width: 200px;
+    margin-left: 60px;
+    font-size: 15px;
+     border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(7, 66, 7);
+
+}
+#home:active,#receipt:active{
+    color: black;
+}

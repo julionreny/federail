@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+#og
+{
+    text-align: center;
+    background-color: white;
+    margin-top: 80px;
+    height: 500px;
+    width: 760px;
+    background-color: rgb(64, 67, 52);
+}
+#top
+{
+    background-color: rgb(1, 1, 6);
+    border: 3px solid rgb(0, 0, 0);
+}
+#og h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#from2
+{
+    margin-left: -350px;
+    ;
+}
+#arrow
+{
+    margin-top: -30px;
+    margin-left: -180px;
+    color: green;
+}
+#to2
+{
+    margin-top: -25px;
+}
+#b1,#b2,#b3,#b4
+{
+    height: 58px;
+    width: 600px;
+    background-color: rgb(178, 227, 209);
+}
+#trainname1,#trainname2,#trainname3
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -40px;
+    
+}
+#price1,#price2,#price3
+{
+    margin-left: 300px;
+    color: rgb(11, 75, 13);
+    font-weight: bold;
+    font-size: 25px;
+}
+#inside1
+{
+    display: none;
+}
+#inside2
+{
+display: none;
+}
+#inside3
+{
+    display: none;
+}
+#inside4
+{
+    display: none;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover
+{
+    background-color: rgb(46, 13, 13);
+    color: white;
+}
